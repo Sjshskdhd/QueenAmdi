@@ -13,21 +13,21 @@
     "success_url": "https://dashboard.heroku.com/apps/",
     "env": {
         "HEROKU": {
-            "description": "Are you deploying the bot in heroku or not?",
+            "description": "لا تغيرها",
             "required": true,
             "value": "YES"
         },
         "HEROKU_APP_NAME": {
-            "description": "Use the same App name as first.",
+            "description": "اسم البوت اللي كتبته بالاعلي.",
             "required": true
         },
         "LANGUAGE": {
-            "description": "Bot language",
+            "description": "لغه البوت",
             "required": true,
             "value": "EN"
         },
         "TZ": {
-            "description": "Your timezone",
+            "description": "المنطقه",
             "required": true,
             "value": "Asia/Colombo"
         }
